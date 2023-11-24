@@ -1,0 +1,419 @@
+/*ESTILOS RESPONSIVE - VISTA DESKTOP - MIN-WIDTH:992PX*/
+
+@media screen and (min-width: 992px){
+    /*********************************************************************************************/
+    /********************************************INICIO NAV***************************************/
+    /*********************************************************************************************/
+    .navbar{ /*Estilos del nav*/
+        position: static; /*Posicion estatica para que el despligue de "Collapse" arranque debajo del nav*/
+    }
+    .nav_desktop{
+        width: 100% !important;
+    }
+    .logo_desktop_mercadolibre{ /*Estilos Logo Mercado Libre*/
+        width: 130px;
+        height: 34px;
+        margin-top: 1px;
+        margin-left: 5em !important;
+        margin-right: 1em !important;
+        margin-bottom: 1px !important;
+    }
+    .form-control{
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        margin-top: 1px !important ;
+        margin-bottom: 1px !important;
+    }
+    .formulario_busqueda_desktop{
+        width: 600px !important;
+        margin-bottom: 1px !important;
+    }
+    .publicidad_disney_mercadolibre{
+        width: 340px;
+        height: 38px;
+        margin-top: 1px;
+        margin-right: 5em !important;
+        margin-bottom: 1px !important;
+    }
+    .bi-geo-alt{ /*Estilos del icono ubicacion*/
+        width: 25px;
+        height: 25px;
+        color: #39814e;
+    }
+    .navbar-brand{ /*Estilos de (Ingresa tu codigo postal)*/
+        font-size: 14px;
+        color: #333333;
+        line-height: 1em;
+        margin-left: 5px;
+    }
+    span{ /*Estilos de (Ingresar)*/
+        color: #7f7832;
+        font-size: 12px;
+    }
+    .geo_ingresar{ /*Estilos que incluyen al icono de Geolocalizacion y el Texto Ingresar Codigo postal*/
+        margin-left: 5em;
+        margin-top: .5em;
+    }
+    .nav-item{
+        list-style:none;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .nav-link{
+        color: #be923a !important;
+        font-size: 14px;
+    }
+    .bi-cart2{
+        color: #333334!important;
+        width: 25px;
+        height: 22px;
+        margin-right:5em;
+        margin-left: 10px !important;
+        margin-top: 1em;
+    }
+    .dropdown-item{
+        color: #fff !important;
+        font-size: 14px !important;
+        margin-left: 1em !important;
+        margin-top: .5em !important;
+    }
+    .dropdown-menu{
+        background: #333333 !important;
+    }
+    .dropdown-item:hover{
+        color: #3483fa !important;
+        background: None !important;
+    }
+    .nav-link2{
+        color: #333334 !important;
+        font-weight: 400 !important;
+    }
+    .container_crear_Ingresar{
+        margin-top: 1em;
+    }
+    .dropdown-toggle::after{ /*Estilos para la flecha que esta a la derecha de categorias*/
+        margin-left: 1px !important;
+    } 
+    /*********************************************************************************************/
+    /********************************************FIN NAV******************************************/
+    /*********************************************************************************************/
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    /*********************************************************************************************/
+    /********************************************MEDIOS DE PAGO***********************************/
+    /*********************************************************************************************/
+    .menu_iconos_desktop{
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .container_menu_desktop{
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 1.5em;
+        border-radius: 8px;
+        overflow: auto;
+        box-shadow: 0 0 3px 3px #d8d8d8; /*Sombra*/
+    }
+    .menu_iconos_h2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 2px;
+        margin-right: 25px;
+    }
+    .menu_iconos_h3{
+        color: #5697FA;
+        margin-top: -4px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 2px;
+        margin-right: 25px;
+    }
+    .circulo_blanco_borde{
+        width: 50px;
+        height: 50px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #5698fa8c;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .bi-credit-card2, .bi-credit-card-2-front2, .bi-currency-dollar2, .bi-coin2, .bi-plus-circle-fill2{
+        width: 25px;
+        height: 25px;
+        color:#5697FA;
+    }
+    /*********************************************************************************************/
+    /********************************************FIN MEDIOS DE PAGO*******************************/
+    /*********************************************************************************************/
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    /*********************************************************************************************/
+    /********************************************SECCION OFERTAS**********************************/
+    /*********************************************************************************************/
+    .seccion_ofertas{ /*Flex para que ambas seccion esten en la misma fila*/
+        display: flex;
+    }
+    .seccion_enviosFull{
+        margin-left: 4em;
+    }
+    .seccion_noTeLoPierdas{
+        margin-right: 4em;
+    }
+    .seccion_enviosFull, .seccion_noTeLoPierdas{
+        margin-bottom: 24px;
+        max-width: 600px;
+        max-height: 220px;
+    }
+    .enviosFull, .No_telopierdas{
+        max-width: 300px;
+        padding-left: 24px;
+        padding-top: 24px;
+        padding-right: 24px;
+        flex-shrink: 1;
+        box-shadow: 0 0 3px 3px #d8d8d8; /*Sombra*/
+    }
+    .img_enviosFull, .img_Notelopierdas{
+        width: 330px;
+        margin-right: 24px;
+    }
+    .h3_enviosFull, .h3_No_telopierdas{
+        font-size: 10px;
+    }
+    .h2_enviosFull, .h2_No_telopierdas{
+        font-size: 20px;
+        max-width: 220px;
+    }
+    .h3_verMas{
+        font-size: 16px;  
+        margin-top: 10px   
+    }
+    /*********************************************************************************************/
+    /********************************************FIN SECCION OFERTAS******************************/
+    /*********************************************************************************************/
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    /*********************************************************************************************/
+    /********************************************SECCION ARTICULOS OFERTAS************************/
+    /*********************************************************************************************/
+    .seccion_articulosCfertas{
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 24px;
+        margin-bottom: 4em;
+    }
+    .article_ofertas{
+        padding-right: 16px;
+        margin-right: 24px;
+        padding-top: 8px;
+        box-shadow: 0 0 3px 3px #d8d8d8; /*Sombra*/
+    }
+    .article_ofertas:nth-child(1){
+        margin-left: 8px;
+    }
+    .article_ofertas:nth-child(8){
+        margin-right: 8px;
+    }
+    .h2_ofertas{
+        font-size: 24px;
+        font-weight: 400;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .contenedor_img{
+        width: 250px;
+        height: 230px;
+        border-bottom: solid 1px #e6e5e5;
+    }
+    .img_ventilador{
+        width: 200px;
+        height: 190px;
+        margin:auto;
+    }
+    .img_aspiradora{
+        width: 100px;
+        height: 200px;
+        margin: auto;
+    }
+    .img_notebook{
+        width: 200px;
+        height: auto;
+        margin:auto;
+    }
+    .img_sillas{
+        width: auto;
+        height: 200px;
+        margin:auto;
+    }
+    .img_disco_duro{
+        width: 200px;
+        height: auto;
+        margin:auto;
+    }
+    .img_heladera{
+        width: 200px;
+        height: 200px;
+        margin:auto;
+    }
+    .img_motoG32{
+        width: auto;
+        height: 200px;
+        margin:auto;
+    }
+    .img_notebookRyzen{
+        width: 200px;
+        height: auto;
+        margin:auto;
+    }
+    .h3_precio, .h3_span_ofertas, .h3_nombre, .h3_envioGratis{
+        padding-left: 16px;
+    }
+    .h3_precio{
+        font-size: 24px;
+        font-weight: 500;
+        color: #1a1a1a;
+        padding-top: 8px;
+    }
+    .h3_span_ofertas{
+        font-size: 18px;
+        color:#0aa957;
+        font-weight: 600;
+    }
+    .h3_nombre{
+        font-size: 14px;
+        max-width: 200px;
+        color: #858484;
+    }
+    .h3_envioGratis{
+        font-size: 16px;
+        padding-bottom: 16px;
+        color:#0aa957;
+        font-weight: 500;
+    }
+    /*********************************************************************************************/
+    /*********************************************FIN SECCION ARTICULOS OFERTAS*******************/
+    /*********************************************************************************************/
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    /*********************************************************************************************/
+    /********************************************SECCION CATEGORIAS*******************************/
+    /*********************************************************************************************/
+    .seccion_categoriasDesktop{
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+    .h2_categorias{
+        font-size: 24px;
+        font-weight: 400;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .div_contenedorCategorias{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .containerIcono{
+        width: 200px;
+        height: 169px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1px;
+    }
+    /*Iconos*/
+    .bi-car-front-fill4, .bi-pc-display4, .bi-bicycle4, .bi-buildings4, .bi-phone4, .bi-tools4, .bi-camera4, .bi-hourglass-bottom4, .bi-book4, .bi-brush4, .bi-bricks4, .bi-plug4, .bi-controller4{
+        width: 50px;
+        height: 50px;
+        color: #3483fa;
+    }
+    .h3_categoriasDesktop{
+        font-size: 14px;
+        color: #333333;
+        padding-top: 8px;
+        max-width: 100px;
+        text-align: center;
+    }
+    /*********************************************************************************************/
+    /********************************************FIN SECCION CATEGORIAS***************************/
+    /*********************************************************************************************/
+    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    /*********************************************************************************************/
+    /********************************************SECCION FOOTER***********************************/
+    /*********************************************************************************************/
+    
+    .seccion_footer_desktop{
+        background: #fff;
+        min-height: 16vh;
+    }
+    .contenedor_footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1em;
+        border-top: 1px solid #d6d6d6;
+    }
+    .h3_footer{
+        font-size: 12px;
+        padding: 0 8px;
+    }
+    .contenedor_footer2{
+        padding-bottom: 8px;
+    }
+    .h3_foofter2{
+        padding-top: 8px;
+        font-size: 12px;
+        margin-left: 4em;
+        font-weight: 400;
+        line-height: 2px;
+        color: #666666;
+    }
+    .h2_FooterMasInformacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   .footerMasInformacion{
+        background: #f8f8f8;
+        display: flex;
+        justify-content: center;
+   }
+   .h2_masInformacion{
+        cursor: pointer;
+        background: #f8F8F8;
+        font-size: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 4px;
+        padding-top: 4px;
+        margin-bottom: 0;
+   }
+   .vermas_container{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+   .footerVerMasColumnas{
+        padding: 16px;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+   }
+   .footerTitulo_h2{
+        font-size: 14px;
+        color: #1a1a1a;
+   }
+   .footer_h2{
+        font-size: 14px;
+        color: #999999;
+        font-weight: 400;
+   }
+    /*********************************************************************************************/
+    /********************************************FIN SECCION FOOTER*******************************/
+    /*********************************************************************************************/
+}
+
+

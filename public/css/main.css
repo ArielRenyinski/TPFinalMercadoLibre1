@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: proxima-nova; */
+}
+body{
+    background: #ededed;
+}
+/*********************************************************************************************/
+/********************************************INICIO NAV***************************************/
+/*********************************************************************************************/
+.navbar{ /*Estilos del nav*/
+    background: #fff159 !important; /*Color del nav*/
+    border-bottom: 1px solid #E5D850 !important;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: none;
+}
+/*********************************************************************************************/
+/********************************************FIN NAV******************************************/
+/*********************************************************************************************/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*********************************************************************************************/
+/********************************************INICIO ARTICLE ENVIO 10MIL***********************/
+/*********************************************************************************************/
+.camion_envioMillones{/*Estilos del articulo Envio $10.000*/
+    border-radius: 8px;
+    background: #fff;
+}
+.div_envioMillones{ /*Estilos del div que integra IconoCamion y texto*/
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.bi-truck{ /*Icono Camion*/
+    margin-right: 5px;
+    padding-top: 2px;
+    color:#0aa957;
+}
+.envio_millones{/*Estilos del H2*/
+    align-content: center;
+    padding-top: 10px;
+}
+.envio_gratis{ /*Span del H2*/
+    color:#0aa957;
+    font-weight: 700;
+}
+/*********************************************************************************************/
+/********************************************FIN ARTICLE ENVIO 10MIL**************************/
+/*********************************************************************************************/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*********************************************************************************************/
+/********************************************SCROLL MENU CON CIRCULOS*************************/
+/*********************************************************************************************/
+.seccion_Menuscroll{ /*Seccion Menu Scroll*/
+    display: flex;
+    overflow: auto; /*Overflow Horizontal para poder hacer Scroll en los iconos*/
+}
+.container_scroll{ /*Estilos del contenido que integra a los iconos, fondo blanco y Texto*/
+    margin-right: 5px;
+}
+.circulo_blanco{ /*Estilos del circulo blanco, donde estan incluidos los iconos*/
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.texto_Menu_Scroll{/*Estilos del texto, debajo de los iconos*/
+    text-align: center;
+    color: rgba(0,0,0, .55);
+}
+/*********************************************************************************************/
+/********************************************FIN SCROLL MENU CON CIRCULOS*********************/
+/*********************************************************************************************/
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*********************************************************************************************/
+/********************************************CREAR CUENTA*************************************/
+/*********************************************************************************************/
+.seccion_crearCuenta{ 
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 16px;
+    border-radius: 8px;
+}
+.h2_crearCuenta{
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.h3_crearCuenta{
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #666666;
+    font-weight: 400;
+}
+.btn-primary2{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: #3483FA !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+.span_ingresar{
+    color: #3483FA;
+}
+/*********************************************************************************************/
+/********************************************FIN CREAR CUENTA*********************************/
+/*********************************************************************************************/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*********************************************************************************************/
+/********************************************SECCION OFERTAS**********************************/
+/*********************************************************************************************/
+.seccion_enviosFull, .seccion_noTeLoPierdas{
+    display: flex;
+}
+.enviosFull, .No_telopierdas{
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.img_enviosFull, .img_Notelopierdas{
+    flex-shrink: 1;
+    flex-grow: 0;
+    max-height: 200px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: auto;
+}
+.h3_enviosFull, .h3_No_telopierdas{
+    letter-spacing:4px;
+}
+.h3_verMas{
+    color: #3483fa;
+    font-weight: 600;    
+
+}
+/*********************************************************************************************/
+/********************************************FIN SECCION OFERTAS******************************/
+/*********************************************************************************************/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*********************************************************************************************/
+/********************************************SECCION ARTICULOS OFERTAS************************/
+/*********************************************************************************************/
+.seccion_articulosCfertas{
+    border-radius: 8px;
+}
+.contenedor_articulos{
+    display: flex;
+    flex-wrap:nowrap;
+    overflow: auto;
+}
+.article_ofertas{
+    width: 100%;
+    padding-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: #fff;
+    border-radius: 8px;
+}
+.article_ofertas:nth-child(8){
+    margin-right: 0;
+}
+.h2_ofertas{
+    padding-left: 16px;
+    margin-bottom: 0;
+}
+.contenedor_img{
+    display: flex;
+    flex-direction: column;
+}
+/*********************************************************************************************/
+/******************************************** FIN SECCION ARTICULOS OFERTAS*******************/
+/*********************************************************************************************/
+
